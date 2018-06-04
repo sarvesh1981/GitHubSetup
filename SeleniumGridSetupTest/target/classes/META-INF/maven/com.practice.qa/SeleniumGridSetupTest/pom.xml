@@ -21,4 +21,17 @@
         <version>3.12.0</version>
     </dependency> 
   </dependencies>
+  
+  <distributionManagement>
+  <repository>
+    <id>qapractice</id>
+    <name>rainbow</name>
+    <url>http://localhost:8081/nexus/content/repositories/qapractice/</url>
+  </repository>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <name>Snapshots</name>
+    <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
 </project>
